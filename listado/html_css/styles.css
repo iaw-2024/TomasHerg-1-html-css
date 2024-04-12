@@ -1,0 +1,33 @@
+/* Estilos para la lista estilizada */
+.lista {
+    list-style-type: #f0f0f0; /* Quita los marcadores de lista */
+    padding: 0; 
+    text-align: center;
+    width: 50%; 
+    height: 20%; 
+    margin: 0 auto; /* Centra horizontalmente el div */
+    margin-bottom: 0px;
+    min-width: 200px;
+}
+
+.lista li {
+    background-color: #f0f0f0; /* Color de fondo de los elementos de la lista */
+    margin-bottom: 5px; /* Margen inferior entre los elementos */
+    padding: 15px; /* Relleno interno de los elementos */
+    border-radius: 5px; /* Radio de borde para los elementos */
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #222;
+    background-image: url('star_wars.jpg'); /* Utiliza una imagen como fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el cuerpo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+}
+
+h1 {
+    color: #f0f0f0;
+    padding: 5px;
+    text-align: center;
+}

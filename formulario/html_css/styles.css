@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium';
+    font-style: italic;
+    font-size: 20px;
+}
+
+h1 {
+    color: #fff;
+    font-size: x-large;
+    background-color: #222;
+    padding: 5%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+head {
+    background-color: #fff;
+}
+
+body{
+    background-color: #222;
+    background-image: url('personajes.jpg'); /* Utiliza una imagen como fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el cuerpo */
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex {
+    flex: 1;
+    padding: 20px;
+    background-color: none;
+    margin: 20px;
+    min-width: 200px;
+    margin-bottom: 0%;
+    text-align: center;
+    width: 80%; 
+    height: 30%;
+    width: 70%; 
+    margin: 0 auto; /* Centra horizontalmente el div */
+    
+}
+
+.in-flex :first-child{
+
+    background-color: none;
+}
+
+.boton{
+    color: rgb(250, 250, 250);
+    background-color: #000000;
+    min-width: 30%;
+}
+
+p {
+    color: #fff;
+    background-color: #000000;
+}
